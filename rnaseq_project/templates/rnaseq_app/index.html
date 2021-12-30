@@ -1,0 +1,187 @@
+<!--
+ <!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+
+    <title>Home Page</title>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Genetik Veri Tabanlarında Örüntü Yakalama</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hakkında</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="jumbotron">
+  <center> <h1 class="display-4">Genetik Veri Tabanlarında Örüntü Yakalama</h1> </center>
+  <em><i><center><p class="lead">RNA Sekanslama (RNA-Seq) bir hücre örneğinin transkriptomunun yani hücrede bulunan tüm RNA transkript setlerinin ortaya çıkartılmasında kullanılan bir dizileme tekniğidir. Transkriptomik veriler hücrelerdeki farklı genlerin ifade seviyeleri (miktarları) hakkında yorumlar yapmamızı sağlar. Farklı genlerin hücrelerdeki ifade seviyeleri analiz edilerek ortaya çıkartılan profiller, hücreler arasında ayrım yapabilmemize veya hücrelerin bir hastalığa verdiği tepkileri ölçebilmemizde yol gösterebilir. Çalışmamızda Atopic dermatitis (egzema) ve psoriasis (sedef hastalığı) teşhisi konmuş hastalardan elde edilmiş transkriptomik verilerini kullanarak, makine öğrenmesi metotlarının bu hastalıklara sebep olan genlerin tespit edilmesinde verecekleri sonuçları araştıracağız. Oluşturacağımız makine öğrenmesi modellerini bu iki hastalığa ait RNA-Seq verileriyle eğiterek hastalıkların tespitindeki isabet oranlarını ortaya koyacağız.</p></center></i></em>
+  <hr class="my-4">
+  <center><p>NCBI Gene Expression Omnibus ve EBI ArrayExpress kaynaklarından elde edilen sedef hastalığı (psoriasis) ve egzama (atopic dermatitis) teşhisi konmuş hastalara ait gen sekans ve gen ifadesi seviyesi bilgilerini içeren transkriptomik verilerin analiz edilerek hastalığa sebep olan genlerin teşhis edilmesinin yapılabilmesi için lütfen gerekli tabloları ekleyiniz!</p></center>
+
+      <div class="input-group">
+        <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile04">
+        <label class="custom-file-label" for="inputGroupFile04">Tablo ekle...</label>
+        </div>
+        <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button">Yükle</button>
+        </div>
+      </div>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Genetik Veri Tabanlarında Örüntü Yakalama</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hakkında</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <center> <h1 class="display-4">Genetik Veri Tabanlarında Örüntü Yakalama</h1> </center>
+  <em><i><center><p class="lead">RNA Sekanslama (RNA-Seq) bir hücre örneğinin transkriptomunun yani hücrede bulunan tüm RNA transkript setlerinin ortaya çıkartılmasında kullanılan bir dizileme tekniğidir. Transkriptomik veriler hücrelerdeki farklı genlerin ifade seviyeleri (miktarları) hakkında yorumlar yapmamızı sağlar. Farklı genlerin hücrelerdeki ifade seviyeleri analiz edilerek ortaya çıkartılan profiller, hücreler arasında ayrım yapabilmemize veya hücrelerin bir hastalığa verdiği tepkileri ölçebilmemizde yol gösterebilir. Çalışmamızda Atopic dermatitis (egzema) ve psoriasis (sedef hastalığı) teşhisi konmuş hastalardan elde edilmiş transkriptomik verilerini kullanarak, makine öğrenmesi metotlarının bu hastalıklara sebep olan genlerin tespit edilmesinde verecekleri sonuçları araştıracağız. Oluşturacağımız makine öğrenmesi modellerini bu iki hastalığa ait RNA-Seq verileriyle eğiterek hastalıkların tespitindeki isabet oranlarını ortaya koyacağız.</p></center></i></em>
+  <hr class="my-4">
+  <center><p>NCBI Gene Expression Omnibus ve EBI ArrayExpress kaynaklarından elde edilen sedef hastalığı (psoriasis) ve egzama (atopic dermatitis) teşhisi konmuş hastalara ait gen sekans ve gen ifadesi seviyesi bilgilerini içeren transkriptomik verilerin analiz edilerek hastalığa sebep olan genlerin teşhis edilmesinin yapılabilmesi için lütfen gerekli tabloları ekleyiniz!</p></center>
+
+
+    <div class="container">
+    	<div class="card">
+    		<div class="card-header"><b>Excel dosyasını seç! (Yalnızca " .xlsx veya .xls " dosya formatları desteklenmektedir) </b></div>
+    		<div class="card-body">
+
+                <input type="file" id="excel_file" />
+
+    		</div>
+    	</div>
+        <div id="excel_data" class="mt-5"></div>
+    </div>
+</body>
+</html>
+
+<script>
+
+const excel_file = document.getElementById('excel_file');
+
+excel_file.addEventListener('change', (event) => {
+
+    if(!['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-excel'].includes(event.target.files[0].type))
+    {
+        document.getElementById('excel_data').innerHTML = '<div class="alert alert-danger">Yalnızca " .xlsx veya .xls " dosya formatları desteklenmektedir!</div>';
+
+        excel_file.value = '';
+
+        return false;
+    }
+
+    var reader = new FileReader();
+
+    reader.readAsArrayBuffer(event.target.files[0]);
+
+    reader.onload = function(event){
+
+        var data = new Uint8Array(reader.result);
+
+        var work_book = XLSX.read(data, {type:'array'});
+
+        var sheet_name = work_book.SheetNames;
+
+        var sheet_data = XLSX.utils.sheet_to_json(work_book.Sheets[sheet_name[0]], {header:1});
+
+        if(sheet_data.length > 0)
+        {
+            var table_output = '<table class="table table-striped table-bordered">';
+
+            for(var row = 0; row < sheet_data.length; row++)
+            {
+
+                table_output += '<tr>';
+
+                for(var cell = 0; cell < sheet_data[row].length; cell++)
+                {
+
+                    if(row == 0)
+                    {
+
+                        table_output += '<th>'+sheet_data[row][cell]+'</th>';
+
+                    }
+                    else
+                    {
+
+                        table_output += '<td>'+sheet_data[row][cell]+'</td>';
+
+                    }
+
+                }
+
+                table_output += '</tr>';
+
+            }
+
+            table_output += '</table>';
+
+            document.getElementById('excel_data').innerHTML = table_output;
+        }
+
+        excel_file.value = '';
+
+    }
+
+});
+
+</script>
+
